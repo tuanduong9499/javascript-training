@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Courier New", Courier, monospace;
+}
+.title {
+  text-align: center;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
