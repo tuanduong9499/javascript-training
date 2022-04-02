@@ -10,14 +10,15 @@
   <body>
     <div class="main">
       <form action="" class="form">
-        <h3 class="form-header">Đăng Ký</h3>
+        <h3 class="form-header">SIGN UP</h3>
         <div class="form-group">
-          <label for="fullname" class="form-label">Tên đầy đủ</label>
+          <label for="username" class="form-label">Full Name</label>
           <input
             class="form-input"
-            id="fullname"
+            name="userName"
+            id="username"
             type="text"
-            placeholder="VD : Huỳnh Tuấn Dương"
+            placeholder="Ex : Huynh Tuan Duong"
           />
           <span class="form-message"></span>
         </div>
@@ -27,48 +28,41 @@
           <input
             class="form-input"
             id="email"
-            type="text"
-            placeholder="VD : abc@gmail.com"
+            type="email"
+            name="email"
+            placeholder="Ex : abc@gmail.com"
           />
           <span class="form-message"></span>
         </div>
 
         <div class="form-group">
-          <label for="password" class="form-label">Mật khẩu</label>
+          <label for="password" class="form-label">Password</label>
           <input
             class="form-input"
             id="password"
+            name="password"
             type="text"
-            placeholder="Nhập mật khẩu"
+            placeholder="Enter password
+            "
           />
           <span class="form-message"></span>
         </div>
 
         <div class="form-group">
-          <label for="password" class="form-label">Mật khẩu</label>
-          <input
-            class="form-input"
-            id="password"
-            type="text"
-            placeholder="Nhập mật khẩu"
-          />
-          <span class="form-message"></span>
-        </div>
-
-        <div class="form-group">
-          <label for="password_confirmation" class="form-label"
-            >Nhập lại mật khẩu</label
+          <label for="confirmPassword" class="form-label"
+            >Confirm Password</label
           >
           <input
             class="form-input"
-            id="password_confirmation"
+            id="confirmPassword"
+            name="confirmPassword"
             type="text"
-            placeholder="Nhập lại mật khẩu"
+            placeholder="Enter confirm password"
           />
           <span class="form-message"></span>
         </div>
 
-        <button class="form-submit">Đăng ký</button>
+        <button type="submit" class="form-submit">Sign Up</button>
       </form>
     </div>
     <script src="main.js"></script>
